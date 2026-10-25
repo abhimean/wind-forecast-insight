@@ -23,6 +23,7 @@ app.add_middleware(
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "http://localhost:3000",
+        "https://wind-forecast-insight-nvd6-k5bs5m1iy-ab-4504.vercel.app",
     ],
     allow_methods=["GET"],
     allow_headers=["*"],
