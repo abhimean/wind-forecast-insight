@@ -22,7 +22,7 @@ import {
 } from "recharts";
 import "./App.css";
 
-const API_BASE = "https://wind-forecast-insight-6ma9f4bfc-ab-4504.vercel.app" || "http://127.0.0.1:8000";
+const API_BASE = "https://wind-forecast-insight-gamma.vercel.app" || "http://127.0.0.1:8000";
 
 function formatNumber(value) {
   if (value === null || value === undefined || !Number.isFinite(Number(value))) {
